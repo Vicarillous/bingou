@@ -4,7 +4,7 @@
 
 <template>
   <v-btn>
-  Button
+  Butto
 </v-btn>
 </template>
 
