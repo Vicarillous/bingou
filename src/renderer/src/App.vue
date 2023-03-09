@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <v-btn>
-  Butto
-</v-btn>
+  A
 </template>
 
 <style lang="less">
