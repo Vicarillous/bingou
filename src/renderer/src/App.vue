@@ -1,9 +1,12 @@
 <script setup>
-
+import NavigationDrawer from './components/navigation-drawer.vue'
 </script>
 
 <template>
-  A
+    <div>
+        <navigation-drawer/>
+        <router-view/>
+    </div>
 </template>
 
 <style lang="less">
