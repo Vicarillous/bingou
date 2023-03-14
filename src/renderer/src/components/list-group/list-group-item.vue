@@ -1,8 +1,8 @@
 <template>
-  <li class="bg-orange-300 flex justify-center rounded-md p-2">
-    <a>
+  <li class="bg-orange-300 flex justify-center rounded-full p-2">
+    <a class="flex items-center">
       <v-icon :icon="icon" />
-      <span class="text-xl font-medium">{{ title }}</span>
+      <span class="text-lg">{{ title }}</span>
     </a>
   </li>
 </template>
@@ -14,4 +14,5 @@ defineProps({
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
